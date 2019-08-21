@@ -1,4 +1,4 @@
-﻿<SOUI name="mainWindow" title="@string/title" bigIcon="ICON_LOGO:32" smallIcon="ICON_LOGO:16" width="1024" height="768"  margin="5,5,5,5"  resizable="1" wndType="appMain"
+﻿<SOUI name="mainWindow" title="@string/title" bigIcon="ICON_LOGO:32" smallIcon="ICON_LOGO:16" width="1600" height="900"  margin="5,5,5,5"  resizable="1" wndType="appMain"
 appWnd="1"
 translucent="0" 
 >
@@ -11,9 +11,44 @@ translucent="0"
       <imgbtn name="btn_restore" skin="_skin.sys.btn.restore"  pos="-83,0" show="0" animate="1" />
       <imgbtn name="btn_min" skin="_skin.sys.btn.minimize" pos="-121,0" animate="1" />
     </caption>
-    <window pos="5,[2,-5,-5">
-      <activex pos="10,[10,-10,-50" name="ax_gridpp" clsID="{1B5EA181-A38D-4f42-88B2-6AF74CF6D6C0}"/>
-      <button name="preview" pos="|-50,[10, @60, @30" >查询</button>
+    <window pos="0,[2,-0,-0">
+      <group pos="10,10,@300,@50">
+        报表展现方式
+        <radio pos="10,0" name="radio_1">预览显示</radio>
+        <radio pos="[50,{0" name="radio_2">查询显示</radio>
+      </group>
+      <treectrl pos="10,[10,@300,@500"  name="template_tree" itemHeight="30" indent="30" hasLines="true" iconSkin="skin_tree_icon" checkBox="0" font="underline:1">
+        <item text="组织机构" img="0" selImg="1"  expand="1">
+          <item text="南一区" img="2"/>
+          <item text="北二区" img="2"/>
+          <item text="西三区" img="2"/>
+          <item text="张三组" img="2"/>
+          <item text="李四组" img="2"/>
+          <item text="王五组" img="2"/>
+         </item>
+        <item text="宣传部" img="0" selImg="1" expand="0">
+          <item text="南一区" img="2"/>
+          <item text="北二区" img="2"/>
+          <item text="西三区" img="2"/>
+        </item>
+      </treectrl>
+
+      <group pos="10,[10,@300,@80">
+        界面皮肤
+        <radio pos="10,0" name="radio_1">系统默认</radio>
+        <radio pos="[50,{0" name="radio_2">绿色主题</radio>
+        <radio pos="10,30" name="radio_1">红色主题</radio>
+        <radio pos="[50,30" name="radio_1">蓝色主题</radio>
+      </group>
+
+      <imgbtn name="preview" pos="30,[10, @100, @30" >查询显示</imgbtn>
+      <imgbtn name="preview" pos="[50,{0, @100, @30" >设计模板</imgbtn>
+    
+      <edit pos="10,[10,@300,-10" vcenter="0" readonly="1" colorBkgnd="#F000F0">124312431243</edit>
+      
+      
+      <activex pos="320,10,-10,-10" name="ax_gridpp" clsID="{1B5EA181-A38D-4f42-88B2-6AF74CF6D6C0}"/>
+      <!--<button name="preview" pos="|-50,[10, @60, @30" >查询</button>-->
     </window>
   </root>
 </SOUI>

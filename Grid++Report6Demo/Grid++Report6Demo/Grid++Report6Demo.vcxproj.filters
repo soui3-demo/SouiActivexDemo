@@ -2,21 +2,21 @@
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
     <ClCompile Include="Grid++Report6Demo.cpp">
-      <Filter>source</Filter>
+      <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="MainDlg.cpp">
-      <Filter>source</Filter>
+      <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="stdafx.cpp">
-      <Filter>source</Filter>
+      <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="MainDlg.h">
-      <Filter>header</Filter>
+      <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="stdafx.h">
-      <Filter>header</Filter>
+      <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="resource.h">
       <Filter>Resource Files</Filter>
@@ -38,36 +38,36 @@
       <Filter>Resource Files</Filter>
     </None>
     <None Include="uires\values\string.xml">
-      <Filter>souiRes</Filter>
+      <Filter>SouiRes</Filter>
     </None>
     <None Include="uires\values\skin.xml">
-      <Filter>souiRes</Filter>
+      <Filter>SouiRes</Filter>
     </None>
     <None Include="uires\uidef\init.xml">
-      <Filter>souiRes</Filter>
+      <Filter>SouiRes</Filter>
     </None>
     <None Include="uires\xml\dlg_main.xml">
-      <Filter>souiRes</Filter>
+      <Filter>SouiRes</Filter>
     </None>
     <None Include="uires\values\color.xml">
-      <Filter>souiRes</Filter>
+      <Filter>SouiRes</Filter>
     </None>
   </ItemGroup>
   <ItemGroup>
-    <Filter Include="source">
-      <UniqueIdentifier>{935f19df-ad0f-4f67-b34c-55b106c96edf}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="header">
-      <UniqueIdentifier>{f01b4b6f-80ed-4d49-a81d-33dc9dee22e0}</UniqueIdentifier>
-    </Filter>
     <Filter Include="Resource Files">
       <UniqueIdentifier>{81b121c7-c8a2-4cde-a411-aa07bd33f89f}</UniqueIdentifier>
     </Filter>
-    <Filter Include="souiRes">
-      <UniqueIdentifier>{032cc6a8-eadd-40c1-9834-6b35bb5c00a4}</UniqueIdentifier>
-    </Filter>
     <Filter Include="GridppReport">
       <UniqueIdentifier>{53b0b34b-b967-4255-8089-0dd3adb2dc00}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{935f19df-ad0f-4f67-b34c-55b106c96edf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{f01b4b6f-80ed-4d49-a81d-33dc9dee22e0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SouiRes">
+      <UniqueIdentifier>{032cc6a8-eadd-40c1-9834-6b35bb5c00a4}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
@@ -77,7 +77,7 @@
   </ItemGroup>
   <ItemGroup>
     <CustomBuild Include="uires\uires.idx">
-      <Filter>souiRes</Filter>
+      <Filter>SouiRes</Filter>
     </CustomBuild>
   </ItemGroup>
 </Project>

@@ -13,6 +13,7 @@
   </values>
 
   <IMG>
+    <file name="png_treeicon" path="image\TreeIcon.png" />
   </IMG>
   <ICON>
     <file name="ICON_LOGO"  path="image\soui.ico"/>
