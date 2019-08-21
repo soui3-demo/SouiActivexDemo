@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29020.237
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Grid++Report6Demo", "Grid++Report6Demo\Grid++Report6Demo.vcxproj", "{A1FC7AC7-BF7A-42DA-BA2C-1D60603AE452}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Debug|x64 = Debug|x64
+		Release|Win32 = Release|Win32
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A1FC7AC7-BF7A-42DA-BA2C-1D60603AE452}.Debug|Win32.ActiveCfg = Debug|Win32
+		{A1FC7AC7-BF7A-42DA-BA2C-1D60603AE452}.Debug|Win32.Build.0 = Debug|Win32
+		{A1FC7AC7-BF7A-42DA-BA2C-1D60603AE452}.Debug|x64.ActiveCfg = Debug|x64
+		{A1FC7AC7-BF7A-42DA-BA2C-1D60603AE452}.Debug|x64.Build.0 = Debug|x64
+		{A1FC7AC7-BF7A-42DA-BA2C-1D60603AE452}.Release|Win32.ActiveCfg = Release|Win32
+		{A1FC7AC7-BF7A-42DA-BA2C-1D60603AE452}.Release|Win32.Build.0 = Release|Win32
+		{A1FC7AC7-BF7A-42DA-BA2C-1D60603AE452}.Release|x64.ActiveCfg = Release|x64
+		{A1FC7AC7-BF7A-42DA-BA2C-1D60603AE452}.Release|x64.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4EEA9CAF-569D-430A-B36C-552FD6F1B2CA}
+	EndGlobalSection
+EndGlobal
