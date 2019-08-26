@@ -5,7 +5,7 @@ translucent="0"
   <root skin="_skin.sys.wnd.bkgnd" cache="1">
     <caption pos="0,0,-0,30" show="1" font="adding:0">
       <icon pos="10,8" src="ICON_LOGO:16"/>
-      <text pos="29,9">@string/title</text>
+      <text name="txt_title" pos="29,9">@string/title</text>
       <imgbtn name="btn_close" skin="_skin.sys.btn.close"    pos="-45,0" tip="close" animate="1"/>
       <imgbtn name="btn_max" skin="_skin.sys.btn.maximize"  pos="-83,0" animate="1" />
       <imgbtn name="btn_restore" skin="_skin.sys.btn.restore"  pos="-83,0" show="0" animate="1" />
@@ -37,10 +37,10 @@ translucent="0"
       </window>
       <group pos="10,[10,@300,@80">
         界面皮肤
-        <radio pos="10,0" name="radio_1">系统默认</radio>
-        <radio pos="[50,{0" name="radio_2">绿色主题</radio>
-        <radio pos="10,30" name="radio_1">红色主题</radio>
-        <radio pos="[50,30" name="radio_1">蓝色主题</radio>
+        <radio pos="10,0" id="100" name="radio_def" checked="1">系统默认</radio>
+        <radio pos="[50,{0" id="101" name="radio_green">绿色主题</radio>
+        <radio pos="10,30" id="102" name="radio_red">红色主题</radio>
+        <radio pos="[50,30" id="103" name="radio_blue">蓝色主题</radio>
       </group>
 
       <imgbtn name="preview" pos="30,[10, @100, @30" >查询显示</imgbtn>
