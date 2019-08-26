@@ -27,6 +27,9 @@
     <ClInclude Include="GridppReport\GRImport.h">
       <Filter>GridppReport</Filter>
     </ClInclude>
+    <ClInclude Include="GetPath.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <None Include="license.txt" />

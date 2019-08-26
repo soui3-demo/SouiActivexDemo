@@ -211,6 +211,7 @@
     <ResourceCompile Include="Grid++Report6Demo.rc" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="GetPath.h" />
     <ClInclude Include="GridppReport\GridppReportEventImpl.h" />
     <ClInclude Include="GridppReport\GRImport.h" />
     <ClInclude Include="MainDlg.h" />

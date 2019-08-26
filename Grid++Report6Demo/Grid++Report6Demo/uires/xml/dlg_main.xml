@@ -15,8 +15,8 @@ translucent="0"
     <window pos="0,[2,-0,-0">
       <group pos="10,10,@300,@50">
         报表展现方式
-        <radio pos="10,0" name="radio_1">预览显示</radio>
-        <radio pos="[50,{0" name="radio_2">查询显示</radio>
+        <radio pos="10,0" name="radio_preview" checked="1">预览显示</radio>
+        <radio pos="[50,{0" name="radio_query">查询显示</radio>
       </group>
       <window pos="10,[10,@300,@500" colorBkgnd="#FFFFFF">
         <treectrl pos="0,0,-0,-0"  name="template_tree" itemHeight="30" indent="30" hasLines="true" iconSkin="skin_tree_icon" checkBox="0" font="underline:1">
@@ -48,8 +48,9 @@ translucent="0"
     
       <edit pos="10,[10,@300,-10" vcenter="0" readonly="1" colorBkgnd="#FFFFFF">124312431243</edit>
       
-      
-      <activex pos="320,10,-10,-10" name="ax_gridpp" clsID="{1B5EA181-A38D-4f42-88B2-6AF74CF6D6C0}"/>
+      <!--<activex pos="320,10,-10,-10" name="ax_gridpp" clsID="{1B5EA181-A38D-4f42-88B2-6AF74CF6D6C0}"/>-->
+      <activex pos="320,10,-10,-10" name="gridpp_display" clsID="gregn.GRDisplayViewer.6"/>
+      <activex pos="320,10,-10,-10" name="gridpp_print" clsID="gregn.GRPrintViewer.6"/>
     </window>
   </root>
 </SOUI>
