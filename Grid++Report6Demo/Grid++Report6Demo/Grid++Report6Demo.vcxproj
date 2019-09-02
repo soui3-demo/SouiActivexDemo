@@ -195,7 +195,9 @@
     <None Include="uires\values\color.xml" />
     <None Include="uires\values\skin.xml" />
     <None Include="uires\values\string.xml" />
-    <None Include="uires\xml\dlg_main.xml" />
+    <None Include="uires\xml\dlg_main.xml">
+      <SubType>Designer</SubType>
+    </None>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Grid++Report6Demo.cpp" />
