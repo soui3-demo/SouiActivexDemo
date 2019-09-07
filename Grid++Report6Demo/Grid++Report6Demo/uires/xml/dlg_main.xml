@@ -43,11 +43,11 @@ translucent="0"
         <radio pos="[50,30" id="103" name="radio_blue">蓝色主题</radio>
       </group>
 
-      <imgbtn name="preview" pos="30,[10, @100, @30" >查询显示</imgbtn>
-      <imgbtn name="preview" pos="[50,{0, @100, @30" >设计模板</imgbtn>
+      <imgbtn name="btn_query" pos="30,[10, @100, @30" >查询显示</imgbtn>
+      <imgbtn name="btn_design" pos="[50,{0, @100, @30" >设计模板</imgbtn>
     
       <edit name="edt_desc" pos="10,[10,@300,-10" vcenter="0" colorBkgnd="#FFFFFF" 
-            readonly="1" multiLines="1" vscrollBar="1" wordWrap="1"  autoVscroll="1" autoSel="0">124312431243</edit>
+            readonly="1" multiLines="1" vscrollBar="1" wordWrap="1"  autoVscroll="1" autoSel="0">xxoo</edit>
       
       <!--<activex pos="320,10,-10,-10" name="ax_gridpp" clsID="{1B5EA181-A38D-4f42-88B2-6AF74CF6D6C0}"/>-->
       <activex pos="320,10,-10,-10" name="gridpp_display" clsID="gregn.GRDisplayViewer.6"/>

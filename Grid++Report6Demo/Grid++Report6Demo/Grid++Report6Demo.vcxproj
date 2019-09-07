@@ -202,6 +202,7 @@
   <ItemGroup>
     <ClCompile Include="Grid++Report6Demo.cpp" />
     <ClCompile Include="MainDlg.cpp" />
+    <ClCompile Include="QueryDlg.cpp" />
     <ClCompile Include="stdafx.cpp">
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Create</PrecompiledHeader>
@@ -217,8 +218,13 @@
     <ClInclude Include="GridppReport\GridppReportEventImpl.h" />
     <ClInclude Include="GridppReport\GRImport.h" />
     <ClInclude Include="MainDlg.h" />
+    <ClInclude Include="QueryDlg.h" />
     <ClInclude Include="resource.h" />
     <ClInclude Include="stdafx.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Xml Include="uires\xml\dlg_design.xml" />
+    <Xml Include="uires\xml\dlg_query.xml" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

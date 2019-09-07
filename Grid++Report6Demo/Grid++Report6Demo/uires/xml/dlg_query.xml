@@ -1,0 +1,37 @@
+<SOUI name="query_dlg" title="xx" width="1600" height="900" margin="0,0,0,0" resizable="0" appWnd="0" smallIcon="ICON_LOGO" bigIcon="ICON_LOGO" translucent="0">
+	<root>
+		<window pos="0,0,-0,-0" colorBkgnd="rgb(180,225,245)">
+			<caption pos="0,0,-0,@30" name="title" magin="0,0,0,0" font="adding:0">
+        <icon pos="5,8" src="ICON_LOGO:16"/>
+        <text name="txt_title" pos="29,9">GRDisplayView展现报表</text>
+        <imgbtn name="btn_close" skin="_skin.sys.btn.close"    pos="-45,0" tip="close" animate="1"/>
+        <imgbtn name="btn_max" skin="_skin.sys.btn.maximize"  pos="-83,0" animate="1" />
+        <imgbtn name="btn_restore" skin="_skin.sys.btn.restore"  pos="-83,0" show="0" animate="1" />
+        <imgbtn name="btn_min" skin="_skin.sys.btn.minimize" pos="-121,0" animate="1"/>
+			</caption>
+			<window pos="0,[0,-0,-0" colorBkgnd="#ffffff">
+        <window pos="0,[0,-0, @25" colorBkgnd="rgb(240,240,240)">
+          <imgbtn name="btn_print" pos="5,2, @100, @20" text="打印"/>
+          <imgbtn name="btn_print_preview" pos="[5,2, @100, @20" text="打印预览"/>
+          <check name="chk_vPageline" pos="[5,2,@130, @20" text="显示垂直分页线"/>
+          <edit name="edt_find_txt" pos="[10,2,@150,@20" colorBkgnd="#FFFFFF" notifyChange="1"/>
+          <imgbtn name="btn_find" pos="[5,2, @100, @20" enable="0" text="直接查找"/>
+          <imgbtn name="btn_find_dlg" pos="[5,2, @100, @20" text="查找对话框"/>
+          <imgbtn name="btn_find_continue" pos="[5,2, @100, @20" text="继续查找"/>
+        </window>
+        <activex pos="0,[0,-0,-50" name="gridpp_display" clsID="gregn.GRDisplayViewer.6"/>
+        <window pos="0,[0,-0, -0" colorBkgnd="rgb(240,240,240)">
+          <group pos="0,0,-0,-0" align="left">
+            分页设置：设定 RowPerPage 属性控制分页
+            <radio pos="10,5" id="100" name="radio_none" checked="1">不分页</radio>
+            <radio pos="[50,5" id="101" name="radio_each">每页行数自动适应分页</radio>
+            <radio pos="[50,5" id="102" name="radio_spec">指定每页行数分页</radio>
+            <edit name="edt_paging_count" pos="[10,3,@60,@20" colorBkgnd="#FFFFFF" enable="0">20</edit>
+            <imgbtn name="btn_apply" pos="[5,3, @80, @20" enable="0" text="应用"/>
+            <text name="txt_hint" pos="[10,3">不分页</text>
+          </group>
+        </window>
+      </window>
+		</window>
+	</root>
+</SOUI>

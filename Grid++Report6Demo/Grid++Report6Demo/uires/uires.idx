@@ -4,6 +4,8 @@
   </UIDEF>
   <LAYOUT>
     <file name="XML_MAINWND" path="xml\dlg_main.xml"/>
+    <file name="XML_QUERY_DLG" path="xml\dlg_query.xml"/>
+    <file name="XML_DESIGN_DLG" path="xml\dlg_design.xml"/>
   </LAYOUT>
   
   <values>

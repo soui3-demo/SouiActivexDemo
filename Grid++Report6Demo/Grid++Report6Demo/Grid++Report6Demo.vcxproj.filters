@@ -10,6 +10,7 @@
     <ClCompile Include="stdafx.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="QueryDlg.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="MainDlg.h">
@@ -30,6 +31,7 @@
     <ClInclude Include="GetPath.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="QueryDlg.h" />
   </ItemGroup>
   <ItemGroup>
     <None Include="license.txt" />
@@ -82,5 +84,13 @@
     <CustomBuild Include="uires\uires.idx">
       <Filter>SouiRes</Filter>
     </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Xml Include="uires\xml\dlg_design.xml">
+      <Filter>SouiRes</Filter>
+    </Xml>
+    <Xml Include="uires\xml\dlg_query.xml">
+      <Filter>SouiRes</Filter>
+    </Xml>
   </ItemGroup>
 </Project>
