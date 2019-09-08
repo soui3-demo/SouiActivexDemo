@@ -200,6 +200,7 @@
     </None>
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="DesignDlg.cpp" />
     <ClCompile Include="Grid++Report6Demo.cpp" />
     <ClCompile Include="MainDlg.cpp" />
     <ClCompile Include="QueryDlg.cpp" />
@@ -214,6 +215,7 @@
     <ResourceCompile Include="Grid++Report6Demo.rc" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="DesignDlg.h" />
     <ClInclude Include="GetPath.h" />
     <ClInclude Include="GridppReport\GridppReportEventImpl.h" />
     <ClInclude Include="GridppReport\GRImport.h" />
@@ -221,6 +223,7 @@
     <ClInclude Include="QueryDlg.h" />
     <ClInclude Include="resource.h" />
     <ClInclude Include="stdafx.h" />
+    <ClInclude Include="TEventHandler.h" />
   </ItemGroup>
   <ItemGroup>
     <Xml Include="uires\xml\dlg_design.xml" />

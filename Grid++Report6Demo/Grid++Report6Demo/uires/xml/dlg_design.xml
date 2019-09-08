@@ -1,31 +1,17 @@
-<SOUI name="FilterParamWnd" title="滤镜参数" width="500" height="300" margin="0,0,0,0" resizable="0" appWnd="0" smallIcon="ICON_LOGO" bigIcon="ICON_LOGO" translucent="0">
-	<root>
-		<window pos="0,0,-0,-0" colorBkgnd="#202020">
-			<caption pos="0,0,-0,@30" name="title" magin="0,0,0,0" colorBkgnd="#202020" font="adding:0">
-				<icon pos="10,3,@24,@24" src="ICON_LOGO2:24" />
-				<text pos="[8,3,]0,@25" name="txt_title" colorText="#ACACAC">滤镜参数</text>
-				<imgbtn name="btn_close" skin="_skin.Win_Close" pos="-28,4" tip="关闭" animate="0" />
-			</caption>
-			<window name="sin_param" pos="1,[0,-1,-1" colorBkgnd="#ededed">
-				<text pos="|-160,40,@50,@20" colorText="#000000">速度:</text>
-				<trackbar pos="[5,40,@200,@20" thumbSkin="_skin.thumb" railSkin="_skin.rail" alpha="200" value="1" min="1" max="5" name="tb_speed"/>
-				<edit pos="[5,40,@40,@20"  colorText="#000000" name="edt_speed" class="cls_edit2" number="1" maxBuf="10" align="center" notifyChange="1" autoSel="1"/>
-				
-				<text pos="|-160,80,@50,@20" colorText="#000000">振幅: </text>
-				<trackbar pos="[5,80,@200,@20"  thumbSkin="_skin.thumb" railSkin="_skin.rail" alpha="200" value="1" min="0" max="0.25" name="tb_amplitude" decimals="2"/>
-				<edit pos="[5,80,@40,@20"  colorText="#000000" name="edt_amplitude" class="cls_edit2" number="1" maxBuf="10" align="center" notifyChange="1" autoSel="1"/>
-				
-				<text pos="|-160,120,@50,@20" colorText="#000000">周期: </text>
-				<trackbar pos="[5,120,@200,@20" thumbSkin="_skin.thumb" railSkin="_skin.rail" alpha="200" value="1" min="1" max="10" name="tb_period"/>
-				<edit pos="[5,120,@40,@20"  colorText="#000000" name="edt_period" class="cls_edit2" number="1" maxBuf="10" align="center" notifyChange="1" autoSel="1"/>
-				
-				<text pos="|-160,160,@50,@20" colorText="#000000">旋转: </text>
-				<trackbar pos="[5,160,@200,@20" thumbSkin="_skin.thumb" railSkin="_skin.rail" alpha="200" value="0" min="0" max="360" name="tb_rotate"/>
-				<edit pos="[5,160,@40,@20"  colorText="#000000" name="edt_rotate" class="cls_edit2" number="1" maxBuf="10" align="center" notifyChange="1" autoSel="1"/>
-
-				<imgbtn name="btn_ok" pos="|80,|100,@60,@20">确定</imgbtn>
-				<imgbtn name="btn_cancel" pos="[20,|100,@60,@20">取消</imgbtn>
-			</window>
-		</window>
-	</root>
+<SOUI name="design_dlg" title="xx" width="1600" height="900" margin="0,0,0,0" resizable="0" appWnd="0" smallIcon="ICON_LOGO" bigIcon="ICON_LOGO" translucent="0">
+  <root>
+    <window pos="0,0,-0,-0" colorBkgnd="rgb(180,225,245)">
+      <caption pos="0,0,-0,@30" name="title" magin="0,0,0,0" font="adding:0">
+        <icon pos="5,8" src="ICON_LOGO:16"/>
+        <text name="txt_title" pos="29,9">用GRDesigner实现设计报表</text>
+        <imgbtn name="btn_close" skin="_skin.sys.btn.close"    pos="-45,0" tip="close" animate="1"/>
+        <imgbtn name="btn_max" skin="_skin.sys.btn.maximize"  pos="-83,0" animate="1" />
+        <imgbtn name="btn_restore" skin="_skin.sys.btn.restore"  pos="-83,0" show="0" animate="1" />
+        <imgbtn name="btn_min" skin="_skin.sys.btn.minimize" pos="-121,0" animate="1"/>
+      </caption>
+      <window pos="0,[0,-0,-0" colorBkgnd="#ffffff">
+        <activex pos="0,[0,-0,-0" name="gridpp_designer" clsID="grdes.GRDesigner.6"/>
+      </window>
+    </window>
+  </root>
 </SOUI>

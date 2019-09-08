@@ -202,6 +202,5 @@ void CQueryDlg::OnFindDlg()
 	VARIANT_BOOL ShowMsg = TRUE;
 
 	VARIANT_BOOL Success = m_pDisplayViewer->Search("", CaseSensitive, WholeWord, ToUp, FromSelection, ShowDlg, ShowMsg);
-	Success;
 
 }
