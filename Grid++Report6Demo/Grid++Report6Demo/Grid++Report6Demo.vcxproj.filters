@@ -10,8 +10,12 @@
     <ClCompile Include="stdafx.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="QueryDlg.cpp" />
-    <ClCompile Include="DesignDlg.cpp" />
+    <ClCompile Include="DesignDlg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="QueryDlg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="MainDlg.h">
@@ -32,9 +36,15 @@
     <ClInclude Include="GetPath.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="QueryDlg.h" />
-    <ClInclude Include="DesignDlg.h" />
-    <ClInclude Include="TEventHandler.h" />
+    <ClInclude Include="TEventHandler.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DesignDlg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="QueryDlg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <None Include="license.txt" />
