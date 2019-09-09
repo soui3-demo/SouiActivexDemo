@@ -3,11 +3,15 @@
 using namespace SOUI;
 inline SStringT GetInstallPath()
 {
+#ifdef _DEBUG
+	return _T(".");
+#else
 	TCHAR FileName[MAX_PATH];
 	GetModuleFileName(NULL, FileName, MAX_PATH);
 	::PathRemoveFileSpec(FileName);
 	SStringT strFileName(FileName);
 	return strFileName;
+#endif
 }
 
 inline SStringT GetReportTemplatePath(void)
